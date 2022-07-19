@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: './',
   productionSourceMap: false,
   // drop_console: true,
   // drop_debugger: true,

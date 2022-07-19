@@ -1,5 +1,5 @@
 const global = {
-    siteName: "诚信 sdfsdfsdfsdfsdf", // 诚信", // "大雁",
+    siteName: "诚信", // 诚信", // "大雁",
     appName: "诚信 sdfsdfsdfsd", //"诚信", // "大雁",
     company: "大雁科技有限公司sdfdsfsdfsdf", // "诚信科技有限公司", // 北京大雁科技有限公司
     domain: "https://www.dayan.win", // http://www.chengxin.network  https://www.dayan.win

@@ -11,22 +11,22 @@ export const routes = [
   children:[
     {
       path: '/v1/home',
-      meta: { title: 'Home' },
+      meta: { title: '首页' },
        component: () => import('./views/Home.vue')
     },
     {
       path: '/v1/about-us',
-      meta: { title: 'About-us' },
+      meta: { title: '公司介绍' },
       component: () => import('./views/About.vue')
     },
     {
       path: '/v1/about-app',
-      meta: { title: 'About-App' },
+      meta: { title: '走进大雁' },
       component: () => import('./views/About_App.vue')
     },
     {
       path: '/v1/about-software',
-      meta: { title: 'About-Software' },
+      meta: { title: '软件介绍' },
       component: () => import('./views/About_SoftWare.vue')
     },
   ]

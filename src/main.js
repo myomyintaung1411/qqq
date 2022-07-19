@@ -19,6 +19,18 @@ const router = createRouter({
   routes,
 })
 
+/* Default title tag */
+const defaultDocumentTitle = global.siteName || '大雁'
+
+router.afterEach(to => {
+  /* Set document title from route meta */
+  if (to.meta && to.meta.title) {
+    document.title = `${defaultDocumentTitle} - ${to.meta.title}`
+  } else {
+    document.title = defaultDocumentTitle
+  }
+})
+
 app.use(router)
 app.use(store)
 app.mount('#app')
