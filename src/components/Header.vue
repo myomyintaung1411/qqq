@@ -12,14 +12,14 @@ const Global = global
         <div class="wrap">
             <div class="logo" >
                 <a href="/v1" >
-                    <img src="@/assets/images/layout_one/logo.png" alt="logo" />
+                    <img src="@/assets/images/layout_one/logo.jpg" alt="logo" />
                     <span class="app-name" >{{Global?.siteName}}</span>
                     </a>
             </div>
             <div class="nav" >
                 <router-link to="/v1/home" class=" menu-item text-white"  aria-current="page">首页</router-link>
                     <router-link to="/v1/about-us" class="menu-item " >公司介绍</router-link>
-                    <router-link to="/v1/about-app" class="menu-item " >走进大雁</router-link>
+                    <router-link to="/v1/about-app" class="menu-item " >走进民生之语</router-link>
                     <router-link to="/v1/about-software" class="menu-item router-link-active router-link-exact-active" >软件介绍</router-link>
           </div>
         </div>

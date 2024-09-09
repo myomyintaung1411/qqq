@@ -21,7 +21,7 @@ export const routes = [
     },
     {
       path: '/v1/about-app',
-      meta: { title: '走进大雁' },
+      meta: { title: '走进民生之语' },
       component: () => import('./views/About_App.vue')
     },
     {

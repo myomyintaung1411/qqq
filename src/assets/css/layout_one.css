@@ -291,7 +291,7 @@
     height: 740px;
     overflow: hidden;
     position: relative;
-    background-image: url(@/assets/images/layout_one/software-banner.png);
+    background-image: url(@/assets/images/layout_one/software-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom
@@ -581,6 +581,6 @@ ul[data-v-bcbf8884] {
 
 #footer p {
     font-weight: 700;
-    font-size: 1vh;
+    font-size: 1.3vh;
     cursor: pointer
 }

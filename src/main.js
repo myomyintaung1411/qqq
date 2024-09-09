@@ -20,7 +20,7 @@ const router = createRouter({
 })
 
 /* Default title tag */
-const defaultDocumentTitle = global.siteName || '大雁'
+const defaultDocumentTitle = global.siteName || '民生之语'
 
 router.afterEach(to => {
   /* Set document title from route meta */
